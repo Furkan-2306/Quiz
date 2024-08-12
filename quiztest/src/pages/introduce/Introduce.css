@@ -1,0 +1,42 @@
+
+.introduce{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#621BE7,#b131f3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduce-container{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.introduce-btn{
+    width: 350px;
+    height: 50px;
+    font-size:  18px;
+    background-color: #621BE7;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.introduce-btn:hover{
+    background-color: #b131f3; /* Hover'da daha koyu mor */
+    transform: translateY(-3px); /* Butonu hover'da biraz yukarı kaydır */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Hover'da buton gölgesi */
+}

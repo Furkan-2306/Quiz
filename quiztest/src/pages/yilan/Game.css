@@ -1,0 +1,63 @@
+
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#621BE7, #b131f3);
+}
+
+
+.game-area {
+  border-radius: 12px;
+  position: relative;
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: green;
+}
+
+.food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: red;
+}
+
+.game-over {
+  text-align: center;
+}
+
+.game-over p {
+  font-size: 24px;
+  color: red;
+}
+
+
+button {
+  width: 350px;
+    height: 50px;
+    border: 0;
+    background-color: #621BE7;
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+    margin-top: 10px;
+    color: white;
+}
+
+button:hover{
+  background-color: #b131f3; 
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}

@@ -1,0 +1,71 @@
+/* Quiz.css */
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(#621BE7,#b131f3);
+    font-family: 'Poppins', sans-serif; 
+    color: white; 
+}
+
+.quiz-text {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #ffffff; 
+    color: #333; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.timer-question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.timer {
+    background-color: #4b0082; 
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px; 
+    font-size: 22px;
+    font-weight: bold;
+    
+    margin-left: 20px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px; 
+}
+
+.answer-button {
+    background-color: #6e00ff; 
+    border: 2px solid transparent; 
+    border-radius: 50px; 
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    width: 100%;
+    max-width: 500px; 
+    text-align: center; 
+}
+
+.answer-button:hover {
+    background-color: #b131f3; 
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+

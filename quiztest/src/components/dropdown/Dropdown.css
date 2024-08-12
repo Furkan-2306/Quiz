@@ -1,0 +1,10 @@
+.dropdown{
+ 
+}
+.dropdown select{
+    width: 350px;
+    height: 50px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+
+}
