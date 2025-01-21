@@ -28,4 +28,4 @@ Backend kısmı, aşağıdaki özellikleri barındırır:
 2. PostgreSQL veritabanını yapılandırın.
 3. Aşağıdaki komutla uygulamayı çalıştırın:
    ```bash
-  
+   mvn spring-boot:run
